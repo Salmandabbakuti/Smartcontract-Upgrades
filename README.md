@@ -76,6 +76,8 @@ now you can call new contract with the same address. in old contract, there is n
 
 ```
 web3 contract call --abi greeter.abi --function getGreeting
+
+>Hi Guys, This is from Old Contract 
 ```
 
 ### 4. Pausing and Resuming Contracts
