@@ -53,6 +53,13 @@ a). Compiling Contract
  ```
  web3 contract target
  ```
+ c). Writing Transaction (Greeting)
+ 
+ ```
+ web3 contract call --abi greeter.abi --function greet "Hi Guys, This is from Old Contract"
+ ```
+ once transaction went through, we succesfully added greeting on blockchain. but still there is no option to return added greeting. thats why we are trying to upgrade contract with new code.
+ 
  
  ### 3. Upgrading Contract
  
