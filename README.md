@@ -59,7 +59,7 @@ a). Compiling Contract
   Copy greeterv2.sol to your directory and then,
   ```
  web3 contract build greeterv2.sol
- web3 contract deploy greeterv2.bin
+ web3 contract deploy greeter.bin
 ```
 Once deployed, it will return newly deployed contract address. using this address we can upgraade our old contract ```greeter``` to ```greeterv2``` run below command to finish one last step
 ```
