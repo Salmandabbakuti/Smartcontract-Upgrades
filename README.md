@@ -18,6 +18,7 @@ to do any operations on network, you need tokens. so to get testnet tokens join 
 ## Steps
 
 1. Environment Setup
+
  a). Export private key to your Env variables (require root user previligies ``` $ sudo -s ``` )
  ```
  export WEB3_PRIVATE_KEY=0x...
@@ -29,8 +30,11 @@ to do any operations on network, you need tokens. so to get testnet tokens join 
 $ export WEB3_NETWORK=testnet
 ```
 2. Deploying an Upgradeable Contract
+
 a). Compiling Contract
+
  copy greeter.sol file to your directory, then 
+ 
  ```
  web3 contract build greeter.sol
  ```
@@ -50,6 +54,7 @@ a). Compiling Contract
  ```
  
  3. Upgrading Contract
+ 
   Copy greeterv2.sol to your directory and then,
   ```
  web3 contract build greeterv2.sol
@@ -66,6 +71,7 @@ web3 contract call --abi greeter.abi --function getGreeting
 ```
 
 4. Pausing and Resuming Contracts
+
 Upgradeable contracts also include the ability to pause & resume execution. if you found any bug in contract you can simply pause (or resume later) the contract with these commands
 
 ```
